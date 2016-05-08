@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E5736CE11CDF5C37003EFA9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5736CE01CDF5C37003EFA9C /* AppDelegate.swift */; };
-		E5736CE31CDF5C37003EFA9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5736CE21CDF5C37003EFA9C /* ViewController.swift */; };
 		E5736CE61CDF5C37003EFA9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5736CE41CDF5C37003EFA9C /* Main.storyboard */; };
 		E5736CE81CDF5C37003EFA9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5736CE71CDF5C37003EFA9C /* Assets.xcassets */; };
 		E5736CEB1CDF5C37003EFA9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5736CE91CDF5C37003EFA9C /* LaunchScreen.storyboard */; };
+		E5736CF31CDF5CA3003EFA9C /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5736CF21CDF5CA3003EFA9C /* CalendarViewController.swift */; };
+		E5736CF51CDF5EAB003EFA9C /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5736CF41CDF5EAB003EFA9C /* DayCell.swift */; };
+		E5DF76981CDF7658001ACAD0 /* CalendarDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF76971CDF7658001ACAD0 /* CalendarDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5736CDD1CDF5C37003EFA9C /* CalendarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5736CE01CDF5C37003EFA9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5736CE21CDF5C37003EFA9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5736CE51CDF5C37003EFA9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5736CE71CDF5C37003EFA9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5736CEA1CDF5C37003EFA9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5736CEC1CDF5C37003EFA9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5736CF21CDF5CA3003EFA9C /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		E5736CF41CDF5EAB003EFA9C /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		E5DF76971CDF7658001ACAD0 /* CalendarDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				E5736CE01CDF5C37003EFA9C /* AppDelegate.swift */,
-				E5736CE21CDF5C37003EFA9C /* ViewController.swift */,
+				E5736CF21CDF5CA3003EFA9C /* CalendarViewController.swift */,
+				E5DF76971CDF7658001ACAD0 /* CalendarDataSource.swift */,
+				E5736CF41CDF5EAB003EFA9C /* DayCell.swift */,
 				E5736CE41CDF5C37003EFA9C /* Main.storyboard */,
 				E5736CE71CDF5C37003EFA9C /* Assets.xcassets */,
 				E5736CE91CDF5C37003EFA9C /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5736CE31CDF5C37003EFA9C /* ViewController.swift in Sources */,
+				E5DF76981CDF7658001ACAD0 /* CalendarDataSource.swift in Sources */,
+				E5736CF31CDF5CA3003EFA9C /* CalendarViewController.swift in Sources */,
+				E5736CF51CDF5EAB003EFA9C /* DayCell.swift in Sources */,
 				E5736CE11CDF5C37003EFA9C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				E5736CF11CDF5C37003EFA9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
